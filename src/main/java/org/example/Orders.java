@@ -9,6 +9,7 @@ public class Orders {
     private Duration pickingTime;
     private LocalTime completeBy;
 
+
     public String getOrderId() {
         return orderId;
     }
@@ -36,13 +37,6 @@ public class Orders {
     public LocalTime getCompleteBy() {
         return completeBy;
     }
-
-    public void setCompleteBy(LocalTime completeBy) {
-        this.completeBy = completeBy;
-    }
-//    public Duration getDut(){
-//        return Duration.parse(pickingTime);
-//    }
 
     @Override
     public String toString() {
